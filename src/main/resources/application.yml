@@ -1,0 +1,16 @@
+#Spring profile
+spring:
+  profile: prod
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/historicaldata
+    username: postgres
+    password: password
+flyway:
+  enabled: true
+zerodha:
+  clientId: abc
+  clientSecret: abc
+  requestTokenUrl: https://kite.zerodha.com/connect/login?v=3
+  userId: xx9345
+availableHistoricalDataFrom: 2021-01-01
